@@ -16,7 +16,7 @@ const Projects = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/recipes.png"
+                src="/src/assets/recipes.png"
                 alt="Food Recipes App"
                 className="w-full rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105"
               />
@@ -51,7 +51,7 @@ const Projects = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/imdb.png"
+                src="/src/assets/imdb.png"
                 alt="IMDB Clone"
                 className="w-full rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105"
               />
@@ -85,7 +85,7 @@ const Projects = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/LandingPage.png"
+                src="/src/assets/LandingPage.png"
                 alt="Landing Page"
                 className="w-full rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105"
               />
@@ -118,7 +118,7 @@ const Projects = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/Todo.png"
+                src="/src/assets/Todo.png"
                 alt="Todo List"
                 className="w-full rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105"
               />

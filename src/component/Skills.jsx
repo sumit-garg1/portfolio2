@@ -2,17 +2,17 @@ import React from "react";
 
 const Skills = () => {
   const skills = [
-    { name: "HTML", src: "/public/html.png" },
-    { name: "CSS", src: "/public/css.png" },
-    { name: "JavaScript", src: "/public/javascript.png" },
-    { name: "React", src: "/public/react.png" },
-    { name: "Tailwind CSS", src: "/public/Tailwind CSS.png" },
-    { name: "Node.js", src: "/public/nodejs.png" },
-    { name: "Express.js", src: "/public/express.png" },
-    { name: "MongoDB", src: "/public/mongodb.png" },
-    { name: "SQL", src: "/public/sql.png" },
-    { name: "Git", src: "/public/git.png" },
-    { name: "GitHub", src: "/public/github.png" },
+    { name: "HTML", src: "/src/assets/html.png" },
+    { name: "CSS", src: "/src/assets/css.png" },
+    { name: "JavaScript", src: "/src/assets/javascript.png" },
+    { name: "React", src: "/src/assets/react.png" },
+    { name: "Tailwind CSS", src: "/src/assets/Tailwind CSS.png" },
+    { name: "Node.js", src: "/src/assets/nodejs.png" },
+    { name: "Express.js", src: "/src/assets/express.png" },
+    { name: "MongoDB", src: "/src/assets/mongodb.png" },
+    { name: "SQL", src: "/src/assets/sql.png" },
+    { name: "Git", src: "/src/assets/git.png" },
+    { name: "GitHub", src: "/src/assets/github.png" },
   ];
 
   return (

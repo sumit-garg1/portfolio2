@@ -9,7 +9,7 @@ const Body = () => {
       <div className="relative z-10 flex flex-col items-center p-4">
         <div className="flex justify-center items-center">
           <img
-            src="/public/Photo.jpg"
+            src="/src/assets/Photo.jpg"
             alt=""
             className="rounded-full h-[250px] w-[250px] mt-3"
           />
@@ -40,7 +40,7 @@ const Body = () => {
         <div className="flex gap-5 justify-center items-center mt-5">
           <div>
             <a href="https://www.instagram.com/gargharshit377/" target="_blank">
-              <img src="/public/instagram.png" alt="Instagram" />
+              <img src="/src/assets/instagram.png" alt="Instagram" />
             </a>
           </div>
           <div>
@@ -48,17 +48,17 @@ const Body = () => {
               href="https://www.linkedin.com/in/harshit-garg-72528b1bb/"
               target="_blank"
             >
-              <img src="/public/linkedin.png" alt="LinkedIn" />
+              <img src="/src/assets/linkedin.png" alt="LinkedIn" />
             </a>
           </div>
           <div>
             <a href="https://github.com/Harshitgarg63" target="_blank">
-              <img src="/public/github.png" alt="GitHub" />
+              <img src="/src/assets/github.png" alt="GitHub" />
             </a>
           </div>
           <div>
             <a href="https://x.com/harshitgar77535" target="_blank">
-              <img src="/public/twitter.png" alt="Twitter" />
+              <img src="/src/assets/twitter.png" alt="Twitter" />
             </a>
           </div>
         </div>

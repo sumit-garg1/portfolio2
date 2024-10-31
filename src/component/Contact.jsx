@@ -70,7 +70,11 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition duration-300"
           >
-            <img src="/github.png" alt="GitHub Profile" className="w-8 h-8" />
+            <img
+              src="/src/assets/github.png"
+              alt="GitHub Profile"
+              className="w-8 h-8"
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/harshitgarg63/"
@@ -79,7 +83,7 @@ const Contact = () => {
             className="text-gray-400 hover:text-white transition duration-300"
           >
             <img
-              src="/linkedin.png"
+              src="/src/assets/linkedin.png"
               alt="LinkedIn Profile"
               className="w-8 h-8"
             />
@@ -88,7 +92,7 @@ const Contact = () => {
             href="mailto:harshitgarg6356@gmail.com"
             className="text-gray-400 hover:text-white transition duration-300"
           >
-            <img src="/gmail.png" alt="Email" className="w-8 h-8" />
+            <img src="/src/assets/gmail.png" alt="Email" className="w-8 h-8" />
           </a>
         </div>
       </div>

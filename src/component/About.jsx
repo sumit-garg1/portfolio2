@@ -6,7 +6,7 @@ const About = () => {
       <h2 className="text-4xl font-bold text-center mb-10 text-white">About</h2>
       <div className="flex flex-col md:flex-row items-center md:items-start max-w-[1000px] mx-auto">
         <img
-          src="/src/assets/Photo.jpg"
+          src="./image/Photo.jpg"
           alt="Harshit Garg"
           className="h-[250px] w-[250px] rounded-md mb-5 md:mb-0 md:mr-8"
         />
@@ -22,7 +22,7 @@ const About = () => {
             creating elegant code that makes an impact.
           </p>
           <a
-            href="/src/assets/resume.pdf"
+            href="./image/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             download="Harshit_Garg_resume.pdf"

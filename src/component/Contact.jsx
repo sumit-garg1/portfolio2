@@ -71,7 +71,7 @@ const Contact = () => {
             className="text-gray-400 hover:text-white transition duration-300"
           >
             <img
-              src="/src/assets/github.png"
+              src="./image/github.png"
               alt="GitHub Profile"
               className="w-8 h-8"
             />
@@ -83,7 +83,7 @@ const Contact = () => {
             className="text-gray-400 hover:text-white transition duration-300"
           >
             <img
-              src="/src/assets/linkedin.png"
+              src="./image/linkedin.png"
               alt="LinkedIn Profile"
               className="w-8 h-8"
             />
@@ -92,7 +92,7 @@ const Contact = () => {
             href="mailto:harshitgarg6356@gmail.com"
             className="text-gray-400 hover:text-white transition duration-300"
           >
-            <img src="/src/assets/gmail.png" alt="Email" className="w-8 h-8" />
+            <img src="./image/gmail.png" alt="Email" className="w-8 h-8" />
           </a>
         </div>
       </div>

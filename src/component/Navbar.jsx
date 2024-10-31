@@ -7,8 +7,9 @@ const Navbar = () => {
   const toggleMenu = () => {
     setOpen(!open);
   };
+
   return (
-    <div className="bg-slate-700 text-white flex justify-between items-center p-6 relative z-20">
+    <div className="bg-[#0a192fd9] text-white flex justify-between items-center p-6 relative z-20">
       <h1 className="text-3xl font-bold cursor-pointer">Harshit Garg</h1>
 
       {/* Hamburger Icon for Mobile */}
@@ -40,14 +41,9 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Navigation Links */}
-      <div
-        className={`${
-          open ? "block" : "hidden"
-        } md:flex md:items-center md:gap-6 absolute md:relative bg-slate-700 w-full md:w-auto transition-all duration-500 z-10`}
-        style={{ top: "100%", left: 0 }} // Positioning the mobile menu correctly
-      >
-        <ul className="flex flex-col md:flex-row md:gap-6 text-xl font-semibold p-4 md:p-0">
+      {/* Navigation Links for Large Screens */}
+      <div className="hidden md:flex md:items-center md:gap-6">
+        <ul className="flex gap-6 text-xl font-semibold">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -62,6 +58,41 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </div>
+
+      {/* Navigation Links for Mobile */}
+      <div
+        className={`${
+          open ? "block" : "hidden"
+        } absolute top-16 left-0 w-full bg-[#0a192fd9] transition-all duration-500 z-10`}
+      >
+        <ul className="flex flex-col text-xl font-semibold p-4 gap-5">
+          <li>
+            <Link to="/" onClick={() => setOpen(false)}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" onClick={() => setOpen(false)}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/skills" onClick={() => setOpen(false)}>
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects" onClick={() => setOpen(false)}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" onClick={() => setOpen(false)}>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

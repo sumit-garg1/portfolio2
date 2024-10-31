@@ -11,27 +11,29 @@ const Body = () => {
           <img
             src="/public/Photo.jpg"
             alt=""
-            className="rounded-full h-[250px] w-[250px] mt-5"
+            className="rounded-full h-[250px] w-[250px] mt-3"
           />
         </div>
-        <div className="text-center mt-2 text-2xl leading-relaxed">
-          <h1>Hi, my name is</h1>
-          <h1 className="text-5xl">Harshit Garg</h1>
+        <div className="text-center mt-3 ">
+          <h1 className="font-intro text-[#64ffda] text-2xl">Hi, my name is</h1>
+          <h1 className="text-7xl font-name text-white font-bold mt-3">
+            Harshit Garg
+          </h1>
         </div>
-        <div className="flex justify-center items-center">
-          <h1>
+        <div className="flex justify-center items-center font-bold leading-loose mt-3">
+          <h1 className="text-white text-lg md:text-xl lg:text-2xl">
             I'm a{" "}
             <ReactTyped
               strings={[
                 "Web Developer",
                 "Frontend Developer",
-                "Mern Stack Developer",
+                "MERN Stack Developer",
               ]}
               typeSpeed={100}
               loop
               backSpeed={20}
               showCursor={true}
-              style={{ color: "#fa8f21" }}
+              style={{ color: "#16ff00", fontFamily: "Righteous" }}
             />
           </h1>
         </div>

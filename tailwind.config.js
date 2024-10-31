@@ -2,7 +2,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      intro: ["Righteous", "sans-serif"],
+      name: ["Playfair Display", "serif"],
+    },
   },
   plugins: [require("daisyui")],
 };

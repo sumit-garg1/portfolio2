@@ -22,10 +22,10 @@ const About = () => {
             creating elegant code that makes an impact.
           </p>
           <a
-            href="./image/resume.pdf"
+            href="./image/Harshit Garg resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            download="Harshit_Garg_resume.pdf"
+            download="Harshit Garg resume.pdf"
           >
             <button className="text-white bg-blue-600 font-medium py-2 px-4 rounded-md border border-blue-600 hover:bg-blue-700 transition duration-200">
               Download CV
